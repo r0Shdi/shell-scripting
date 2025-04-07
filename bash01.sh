@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# password comparison using bcrypt
 read -p "Enter the password: " password
 echo $password > password.txt
 
